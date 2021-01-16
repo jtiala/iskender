@@ -3,8 +3,6 @@ title: Fresco Pizza & Kebab
 date: 2021-01-12
 tags:
   - Oulu
-  - Testi
-  - Testi 2
 coverImage: /reviews/fresco-oulu/03.jpg
 score:
   summary: Ikävä kyllä erinomainen kebab ei riitä korvaamaan sooseissa ja lisukkeissa olleita puutteita.
