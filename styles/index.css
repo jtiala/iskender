@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition;
+  @apply duration-150;
+  @apply ease-in-out;
+}
+
+html {
+  @apply font-serif;
+}
