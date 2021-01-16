@@ -30,7 +30,7 @@ const ReviewPreview: React.FC<Props> = ({
           {title}
         </Link>
       </h3>
-      <div className="flex flex-col justify-center xs:flex-row xs:flex-wrap xs:space-x-4">
+      <div className="flex items-center justify-center flex-col xs:flex-row space-y-1 xs:space-y-0 xs:space-x-4">
         <div className="flex items-center font-sans font-semibold text-sm text-gray-600 space-x-2">
           <Icon type="calendar" />
           <p className="sr-only">Julkaisupäivämäärä</p>
