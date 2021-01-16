@@ -19,3 +19,5 @@ jobs:
       #   run: npm run test
       - name: Build
         run: npm run build
+        env:
+          NEXT_PUBLIC_ORIGIN: https://iskender.fi
