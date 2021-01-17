@@ -24,7 +24,7 @@ Myös Frescon menu on juuri sitä, mitä odottaa sopiikin. Listalta löytyy pitk
 
 Olisimme jääneet paikan päälle syömään, mutta koronajuttujen vuoksi he myivät känkyt ja kebut ainostaan kotiinviemisiksi. Virallisia rajoitteita ravintolassa syömisen suhteen ei enää mielestäni pitäisi olla, mutta toisaalta noin ahtaassa paikassa lähikontakteilta ei pystyisi välttymään. Vastuullista toimintaa Frescolta siis!
 
-![Koronarajoitteden sulkema salaattibaari on surullinen näky.](/reviews/fresco-oulu/02.jpg "3709x2780")
+![Koronarajoitteiden sulkema salaattibaari on surullinen näky.](/reviews/fresco-oulu/02.jpg "3709x2780")
 
 Kotiin päästyämme ja kebab-laatikot avattuamme koimme suuren yllätyksen. Kummassakaan annoksessa, minun iskenderissä tai vaimon kebabissa lohkoperunoilla, ei ollut annoksille tyypillistä tomaattikastiketta lainkaan! Tarkemmin ajatellen meiltähän ei edes kysytty, että millä kastikkeella laitetaan.
 
