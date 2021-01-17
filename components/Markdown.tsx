@@ -9,7 +9,7 @@ interface Props {
 
 const renderers = {
   image: (image) => {
-    const defaultSize = [4, 3]; // Aspect ratio of a default landscape photo
+    const defaultSize = [1024, 768]; // Aspect ratio of a default landscape photo
 
     const [width, height] =
       typeof image.title === "string" && /^\d*x\d*$/.test(image.title)
@@ -17,7 +17,13 @@ const renderers = {
         : defaultSize;
 
     return (
-      <Image src={image.src} alt={image.alt} width={width} height={height} />
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width={width}
+        height={height}
+        layout="responsive"
+      />
     );
   },
 };
