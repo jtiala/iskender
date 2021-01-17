@@ -19,7 +19,7 @@ const ReviewPreview: React.FC<Props> = ({
         <NextLink href={`/arvostelut/${slug}`}>
           <a
             aria-label={title}
-            className=" outline-none focus:ring focus:ring-offset-2 focus:ring-red-800"
+            className="outline-none focus:ring focus:ring-offset-2 focus:ring-red-800"
           >
             <Image src={coverImage} layout="fill" className="object-cover" />
           </a>
