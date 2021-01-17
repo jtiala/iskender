@@ -21,7 +21,12 @@ const ReviewPreview: React.FC<Props> = ({
             aria-label={title}
             className="outline-none focus:ring focus:ring-offset-2 focus:ring-red-800"
           >
-            <Image src={coverImage} layout="fill" className="object-cover" />
+            <Image
+              src={coverImage}
+              layout="fill"
+              className="object-cover"
+              alt=""
+            />
           </a>
         </NextLink>
       </div>
