@@ -54,28 +54,28 @@ const ScoreTable: React.FC<Props> = ({
           <tr className={trClassName(true)}>
             <th className={thClassName()}>Leipä</th>
             <td className={tdClassName()}>
-              {kebab}
+              {bread}
               <span className={ofPointsClassName()}>/5</span>
             </td>
           </tr>
           <tr className={trClassName(true)}>
             <th className={thClassName()}>Soossit</th>
             <td className={tdClassName()}>
-              {kebab}
+              {sauces}
               <span className={ofPointsClassName()}>/5</span>
             </td>
           </tr>
           <tr className={trClassName()}>
             <th className={thClassName()}>Höysteet</th>
             <td className={tdClassName()}>
-              {kebab}
+              {sides}
               <span className={ofPointsClassName()}>/5</span>
             </td>
           </tr>
         </tbody>
         <tbody className="grid grid-cols-1 border-t pt-2 md:pt-4">
           <tr className={trClassName()}>
-            <th className={thClassName(true)}>Yhteensä</th>
+            <th className={thClassName(true)}>Yhteispisteet</th>
             <td className={tdClassName(true)}>
               {total}
               <span className={ofPointsClassName(true)}>/20</span>
