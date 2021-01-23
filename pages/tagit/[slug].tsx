@@ -16,7 +16,7 @@ const TagPage: React.FC<Props> = ({ reviews, tag }) => {
   return (
     <Layout
       title={`Arvostelut tagilla ${tag.name}`}
-      description={`Kaikki tagilla ${tag.name} merkityt Iskender.fi arvostelut`}
+      description={`Kaikki tagilla ${tag.name} merkityt Iskender.fi -arvostelut`}
     >
       <section className="flex flex-col space-y-16">
         <Heading level={1}>Arvostelut tagilla {tag.name}</Heading>

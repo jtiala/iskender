@@ -14,7 +14,7 @@ const ReviewsPage: React.FC<Props> = ({ reviews }) => {
   return (
     <Layout
       title="Arvostelut"
-      description="Arkisto kaikist Iskender.fi -arvosteluista"
+      description="Arkisto kaikista Iskender.fi -arvosteluista"
     >
       <section className="flex flex-col space-y-8">
         <Heading level={1}>Iskender-arvostelut</Heading>

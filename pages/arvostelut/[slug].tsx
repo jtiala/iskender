@@ -13,7 +13,7 @@ const ReviewPage: React.FC<Props> = ({ review }) => {
   return (
     <Layout
       title={review.title}
-      description={`Iskender.fi -arvostelu: ${review.title}`}
+      description={`Iskender.fi -arvio: ${review.score.total}/20. ${review.score.summary}`}
       ogImage={review.coverImage}
     >
       <ReviewArticle review={review} />
