@@ -20,13 +20,11 @@ const ReviewArticle: React.FC<Props> = ({
         <Heading level={1}>{title}</Heading>
         <div className="flex flex-col xs:flex-row space-y-1 xs:space-y-0 xs:space-x-4">
           <div className="flex items-center font-sans font-semibold text-sm text-gray-600 space-x-2">
-            <Icon type="calendar" />
-            <p className="sr-only">Julkaisupäivämäärä</p>
+            <Icon type="calendar" alt="Julkaisupäivämäärä" />
             <Date date={date} />
           </div>
           <div className="flex items-center font-sans font-semibold text-sm text-gray-600 space-x-2">
-            <Icon type="tag" />
-            <p className="sr-only">Tagit</p>
+            <Icon type="tag" alt="Tagit" />
             <ul className="list-none space-x-2 flex flex-row">
               {tags.map(({ slug, name }) => (
                 <li key={slug}>
