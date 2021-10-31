@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
-  extends: ["react-app", "prettier", "prettier/@typescript-eslint"],
+  extends: ["react-app", "prettier"],
   rules: {
     // Disable anchor-is-valid for Next.js Links
     "jsx-a11y/anchor-is-valid": [
