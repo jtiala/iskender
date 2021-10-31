@@ -2,6 +2,10 @@ import NextImage, { ImageProps } from "next/image";
 import Link from "next/link";
 
 const Image: React.FC<ImageProps> = ({ alt, ...props }) => {
+  if (typeof props.src !== "string") {
+    return null;
+  }
+
   return (
     <figure className="flex flex-col space-y-2">
       <Link href={props.src}>
