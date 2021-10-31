@@ -33,7 +33,7 @@ const Markdown: React.FC<Props> = ({ content }) => {
     <ReactMarkdown
       className="prose md:prose-xl max-w-none md:max-w-prose"
       children={content}
-      renderers={renderers}
+      components={renderers}
       plugins={[unwrapImages]}
     />
   );
